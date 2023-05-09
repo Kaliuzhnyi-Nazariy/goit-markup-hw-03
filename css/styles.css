@@ -1,0 +1,259 @@
+:root {
+  --general-text-color: #434455;
+  --footer-text-color: #f4f4fd;
+  --title-text-color: #2e2f42;
+  --primty-brand: #4d5ae5;
+  --CTA: #404bbf;
+  --port-but: #e7e9fc;
+  --primary-white: #ffffff;
+  --team-bg: #F4F4FD;
+}
+
+.conteiner {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  /* timer */
+  background-color: teal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--general-text-color);
+}
+/* logo */
+.logo {
+  text-decoration: none;
+  color: var(--primty-brand);
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo .link {
+  text-decoration: none;
+}
+
+.web {
+  color: var(--title-text-color);
+}
+
+/* nav */
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link:active {
+  color: var(--CTA);
+}
+
+/* address */
+
+.address {
+  list-style: none;
+  font-style: normal;
+}
+
+.address .link:hover,
+.address .link:focus {
+  list-style: none;
+  color: var(--CTA);
+}
+
+.address .link {
+  text-decoration: none;
+  color: var(--general-text-color);
+}
+
+/* buttons */
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.stu {
+  color: #ffffff;
+  background-color: var(--primty-brand);
+}
+
+.stu:hover,
+.stu:focus {
+  background-color: var(--CTA);
+}
+
+.port {
+  color: var(--primty-brand);
+  background-color: var(--team-bg);
+}
+
+.port:hover,
+.port:focus {
+  color: var(--primary-white);
+  background-color: var(--CTA);
+}
+
+/* studio */
+
+/* sections */
+
+/* hero */
+.hero {
+  background-color: var(--title-text-color);
+}
+
+.hero-title {
+  color: var(--primary-white);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* adventages */
+
+
+.list {
+  list-style: none;
+}
+
+.adv-title {
+  visibility: hidden;
+}
+
+.adventages-title {
+  color: var(--title-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.adventages .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+}
+/* What are we doing */
+
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--title-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* team */
+
+.team {
+  background-color: var(--team-bg);
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.prof {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.team .card {
+background-color: var(--primary-white);
+}
+
+/* portfolio */
+
+.hide-title {
+  visibility: hidden;
+}
+
+.examples {
+  list-style: none;
+}
+
+.example-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.hide-title .list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.examples .link {
+  list-style: none;
+  text-decoration: none; 
+}
+
+
+.examples .text {
+  color: var(--general-text-color);
+}
+/* footer */
+
+.foot-site {
+  background-color: var(--title-text-color);
+  color: var(--footer-text-color);
+}
+
+.logo-footer {
+  text-decoration: none;
+  color: var(--primty-brand);
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer .web {
+  color:  var(--footer-text-color);
+}
