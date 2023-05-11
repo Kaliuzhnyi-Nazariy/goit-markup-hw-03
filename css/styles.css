@@ -6,16 +6,25 @@
   --CTA: #404bbf;
   --port-but: #e7e9fc;
   --primary-white: #ffffff;
-  --team-bg: #F4F4FD;
+  --team-bg: #f4f4fd;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .conteiner {
   width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  
-  /* timer */
-  background-color: teal;
+
+  /* temprorary */
+  outline: 2px solid tomato;
 }
 
 body {
@@ -28,6 +37,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--general-text-color);
 }
+
 /* logo */
 .logo {
   text-decoration: none;
@@ -50,11 +60,33 @@ body {
 }
 
 /* nav */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav > .item {
+  margin-right: 40px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
 .list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .site-nav .link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
   text-decoration: none;
   color: var(--title-text-color);
 }
@@ -66,6 +98,15 @@ body {
 }
 
 /* address */
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact > .item {
+  margin-left: 40px;
+}
 
 .address {
   list-style: none;
@@ -93,11 +134,16 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
+  border-radius: 4px;
+  min-width: 169px;
+  border: 1px solid transparent;
+  display: inline-block;
 }
 
 .stu {
-  color: #ffffff;
+  color: var(--primary-white);
   background-color: var(--primty-brand);
+  padding: 32px 16px;
 }
 
 .stu:hover,
@@ -108,6 +154,7 @@ body {
 .port {
   color: var(--primty-brand);
   background-color: var(--team-bg);
+  border: 1px solid var(--port-but);
 }
 
 .port:hover,
@@ -120,9 +167,15 @@ body {
 
 /* sections */
 
+.section {
+  padding-top: 120px;
+  /* background-color: teal; */
+}
+
 /* hero */
 .hero {
   background-color: var(--title-text-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -133,6 +186,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 48px;
 }
 .section-title {
   color: var(--title-text-color);
@@ -140,6 +194,14 @@ body {
 
 /* adventages */
 
+.advent {
+  display: flex;
+  justify-content: center;
+}
+
+.advent > .item:not(:last-child) {
+  margin-right: 24px;
+}
 
 .list {
   list-style: none;
@@ -156,6 +218,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .adventages .text {
@@ -164,6 +227,19 @@ body {
   line-height: 1, 5;
 }
 /* What are we doing */
+
+.doing {
+  display: flex;
+  justify-content: center;
+}
+
+.doing .item {
+  margin-right: 24px;
+}
+
+.doing .item:last-child {
+  margin-right: 0;
+}
 
 .section-title {
   font-style: normal;
@@ -175,6 +251,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 /* team */
@@ -189,18 +266,33 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team .card {
+  width: 264px;
+  background-color: var(--primary-white);
+}
+
+.team .card:not(:last-child) {
+  margin-right: 24px;
 }
 
 .prof {
   font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-}
-
-.team .card {
-background-color: var(--primary-white);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
 
 /* portfolio */
@@ -209,8 +301,13 @@ background-color: var(--primary-white);
   visibility: hidden;
 }
 
+.btn {
+  padding-top: 120px;
+}
+
 .examples {
   list-style: none;
+  padding-top: 120px;
 }
 
 .example-title {
@@ -228,18 +325,25 @@ background-color: var(--primary-white);
 
 .examples .link {
   list-style: none;
-  text-decoration: none; 
+  text-decoration: none;
 }
-
 
 .examples .text {
   color: var(--general-text-color);
 }
 /* footer */
 
+.foot {
+  display: block;
+  width: 264px;
+  justify-content: start;
+}
+
 .foot-site {
   background-color: var(--title-text-color);
   color: var(--footer-text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -255,5 +359,9 @@ background-color: var(--primary-white);
 }
 
 .logo-footer .web {
-  color:  var(--footer-text-color);
+  color: var(--footer-text-color);
+}
+
+.foot-site p {
+  margin-top: 18px;
 }
