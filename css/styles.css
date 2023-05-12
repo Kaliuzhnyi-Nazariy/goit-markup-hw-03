@@ -261,11 +261,14 @@ body {
 }
 /* What are we doing */
 
+.do {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
 .doing {
   display: flex;
   justify-content: center;
-  padding-bottom: 120px;
-  padding-top: 120px;
 }
 
 .doing .item {
