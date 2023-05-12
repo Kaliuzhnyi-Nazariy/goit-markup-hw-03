@@ -353,6 +353,10 @@ body {
   margin-right: 24px;
 }
 
+.main-portf {
+  padding-top: 96px; padding-bottom: 120px;
+}
+
 .examples {
   list-style: none;
   padding-top: 120px;
