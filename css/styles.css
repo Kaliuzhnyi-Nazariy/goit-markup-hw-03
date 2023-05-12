@@ -124,8 +124,8 @@ body {
   align-items: center;
 }
 
-.contact > .item {
-  margin-left: 40px;
+.contact > .item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .address {
