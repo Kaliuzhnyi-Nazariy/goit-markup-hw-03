@@ -105,8 +105,8 @@ body {
 
 .site-nav .link {
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   text-decoration: none;
   color: var(--title-text-color);
 }
