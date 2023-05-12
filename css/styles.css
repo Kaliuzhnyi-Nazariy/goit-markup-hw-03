@@ -177,6 +177,10 @@ body {
 }
 
 .port {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   color: var(--primty-brand);
   background-color: var(--team-bg);
   border: 1px solid var(--port-but);
@@ -186,6 +190,7 @@ body {
 .port:focus {
   color: var(--primary-white);
   background-color: var(--CTA);
+  border: 1px solid transparent;
 }
 
 /* studio */
