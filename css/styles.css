@@ -229,7 +229,7 @@ body {
   justify-content: center;
   padding-top: 120px;
   padding-bottom: 120px;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4); 
 }
 
 .advent > .item:not(:last-child) {
@@ -315,7 +315,7 @@ body {
 }
 
 .team .card {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   background-color: var(--primary-white);
   border-radius: 0px 0px 4px 4px;
 }
