@@ -317,7 +317,7 @@ body {
 }
 
 .team .card {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   background-color: var(--primary-white);
   margin-bottom: 120px;
 }
