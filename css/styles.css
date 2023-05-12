@@ -352,6 +352,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .btn > .item:not(:last-child) {
