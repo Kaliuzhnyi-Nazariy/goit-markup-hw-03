@@ -298,6 +298,9 @@ body {
   background-color: var(--team-bg);
   padding-top: 120px;
   padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .team-name {
@@ -309,12 +312,6 @@ body {
   text-align: center;
   margin-top: 32px;
   margin-bottom: 8px;
-}
-
-.team {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .team .card {
