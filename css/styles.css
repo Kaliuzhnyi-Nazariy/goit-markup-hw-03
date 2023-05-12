@@ -19,7 +19,7 @@ p {
 }
 
 .conteiner {
-  width: 1440px;
+  width: 1158px;
   margin-right: auto;
   margin-left: auto;
 
@@ -61,6 +61,16 @@ body {
 
 .web {
   color: var(--title-text-color);
+}
+
+.page-head {
+  border-bottom: 1px solid var(--port-but);
+}
+
+.pg-hd {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
 }
 
 /* nav */
