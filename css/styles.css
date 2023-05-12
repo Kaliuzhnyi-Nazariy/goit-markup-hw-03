@@ -264,6 +264,7 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .doing .item {
