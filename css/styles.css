@@ -390,6 +390,12 @@ body {
   margin-bottom: 0px;
 }
 
+.item-item {
+  padding: 32px 16px;
+  border: 1px solid var(--port-but);
+  border-top: none;
+  margin-bottom: 8px;
+}
 
 .example-title {
   font-size: 20px;
