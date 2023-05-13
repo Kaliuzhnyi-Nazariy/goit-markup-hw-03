@@ -156,15 +156,17 @@ body {
   cursor: pointer;
   border-radius: 4px;
   min-width: 169px;
+
   border: none;
   display: block;
-  height: 56px;
+  
 }
 
 .stu {
   color: var(--primary-white);
   background-color: var(--primty-brand);
   padding: 32px 16px;
+  height: 56px;
   margin-right: auto;
   margin-left: auto;
 }
