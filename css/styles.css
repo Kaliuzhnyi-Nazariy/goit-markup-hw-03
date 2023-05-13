@@ -360,6 +360,10 @@ body {
   visibility: hidden;
 }
 
+.bitem {
+  margin-right: 24px;
+}
+
 .btn {
   display: flex;
   justify-content: center;
