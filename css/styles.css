@@ -236,14 +236,11 @@ body {
 .advent {
   display: flex;
   justify-content: center;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .advent > .item:not(:last-child) {
   margin-right: 24px;
-}
-
-.advent .item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .list {
