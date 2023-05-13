@@ -28,7 +28,7 @@ p {
   /* outline: 2px solid tomato; */
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -392,8 +392,6 @@ body {
 
 .item-item {
   padding: 32px 16px;
-  border: 1px solid var(--port-but);
-  border-top: none;
   margin-bottom: 8px;
 }
 
