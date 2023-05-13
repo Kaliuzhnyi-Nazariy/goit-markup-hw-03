@@ -415,7 +415,7 @@ body {
   padding: 32px 16px;
   margin-bottom: 8px;
   border: 1px solid var(--port-but);
-  border-top: none;
+  border-oop: none;
 }
 
 .example-title {
