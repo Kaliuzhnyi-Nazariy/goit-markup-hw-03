@@ -341,6 +341,7 @@ body {
 
 .n_fnd_p {
   padding-bottom: 32px;
+  padding-top: 32px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -413,6 +414,7 @@ body {
 .item-item {
   padding: 32px 16px;
   margin-bottom: 8px;
+  border: 1px solid var(--port-but);
 }
 
 .example-title {
