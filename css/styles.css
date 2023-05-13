@@ -301,10 +301,6 @@ body {
 
 /* team */
 
-.tim {
-  padding: 32px 16px;
-}
-
 .team {
   background-color: var(--team-bg);
   padding-top: 120px;
