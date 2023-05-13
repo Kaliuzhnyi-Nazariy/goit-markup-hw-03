@@ -360,7 +360,7 @@ body {
   visibility: hidden;
 }
 
-.bitem {
+.bitem:not(:last-child) {
   margin-right: 24px;
 }
 
