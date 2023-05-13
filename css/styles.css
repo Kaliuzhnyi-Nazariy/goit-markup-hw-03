@@ -380,6 +380,10 @@ body {
   padding-bottom: 120px;
 }
 
+.main-portf ul {
+  padding: 0;
+}
+
 .examples {
   list-style: none;
   padding-top: 120px;
